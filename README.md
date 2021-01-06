@@ -12,6 +12,7 @@ along with the corresponding weights of each polygon layer for reference.
 The workspace is set to the location of the script file. User inputs shapefiles names and their weights.
 Union function is computed using user inputs, and an output shapefile is created with user input name. Fields are
 added for individual weights as well as a suitability index field summing these weights.
+Module used: ArcPy.
 # Assumptions: 
 Python script file is located in the same directory as all the shapefiles being used in the program.
 # Planned Limitations: 
